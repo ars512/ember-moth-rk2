@@ -1,0 +1,16 @@
+AI usage log - Ember Moth
+
+Tool: Claude Code (Claude Sonnet 5.5), driven from VS Code.
+
+What the AI did:
+- Proposed the game idea and wrote the GDD text (docs/GDD.html -> PDF).
+- Wrote the C# scripts in Assets/Scripts and the editor tools in Assets/Editor
+  (SceneBuilder, Screenshots, AutoRun).
+- Generated the sprites procedurally (code, no external assets) and built the Menu and Level scenes.
+- Set up git: .gitignore (GitHub Unity template), commits, feature branch and pull request.
+
+What the author must check / own:
+- Reading and understanding the code before the live defense (any part may be asked about).
+- Testing in Device Simulator on the three devices and recording the video in own voice.
+- Screenshots in Screenshots/ were rendered by Screenshots.cs (simulated screen size and safe area),
+  not captured from the Device Simulator window.
